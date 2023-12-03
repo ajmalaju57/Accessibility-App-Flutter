@@ -1,0 +1,48 @@
+name: accessibility_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.3
+  flutter_svg: ^2.0.7
+  speech_to_text: ^6.4.1
+  hive: ^2.2.3
+  flutter_tts: ^3.8.5
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.7
+  path_provider: ^2.1.1
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+
+  fonts:
+    - family: Merriweather-Regular
+      fonts:
+        - asset: assets/fonts/Merriweather-Regular.ttf
+    - family: RubikBubbles-Regular
+      fonts:  
+        - asset: assets/fonts/RubikBubbles-Regular.ttf

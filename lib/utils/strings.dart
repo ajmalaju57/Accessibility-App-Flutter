@@ -1,4 +1,4 @@
-const appName = "Text To Speech";
+const appName = "accessibility_app";
 
 //font family
 const String rubikBubbles = 'RubikBubbles-Regular',
